@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(245,245,245);
+    font-family: 'Noto Serif Khitan Small Script', sans-serif;
+}
+/*-----------------------LOGIN SCREEN--------------------*/
+.insert_name {
+    margin: 18% 9.5% 15%;
+    width: 80%;
+    border-radius: 0.4em;
+    box-shadow: 1px 1px 5px 2px #c7c7c7fe;
+    background-color: white;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#userName {
+    border: 1px solid black;
+    border-radius: 0.2em;
+}
+
+#button_first_screen {
+    margin-top: 0.5em;
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.2em;
+}
+
+#button_first_screen:hover{
+    color: black;
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
+}
+
+.disabled{
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
+/*----------------------RANKING BOX-------------------*/
+
+.ranking {
+    position: fixed;
+    top:55%;
+    left: 15%;
+    width: 70%;
+    border-radius: 0.4em;
+    box-shadow: 1px 1px 5px 2px #c7c7c7fe;
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+}
+
+.title_ranking {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+li {
+    font-size: 0.8em;
+    text-align:justify;
+}
+
+/*-----------------------START GAME SCREEN----------------*/
+
+#button_second_screen {
+    margin: 40% auto;
+    display: block;
+    padding: 0.8em;
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.2em;
+}
+
+
+/*-----------------------GET READY SCREEN----------------*/
+
+.ready_screen-none{
+    display: none;
+}
+
+.ready_screen-flex{
+    display: flex;
+    margin: 9% 9.5% 15%;
+    width: 80%;
+    border-radius: 0.4em;
+    box-shadow: 1px 1px 5px 2px #c7c7c7fe;
+    background-color: white;
+    padding: 2em;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+/*-----------------------MAIN GAME SCREEN----------------*/
+
+
+#button_game {
+    margin: 40% auto;
+    display: block;
+    padding: 0.8em;
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.2em;
+}
+
+
+/*----------------------------YOUR SCORE GAME -----------*/
+
+.score_screen {
+    margin: 40% auto;
+    width: 80%;
+    border-radius: 0.4em;
+    box-shadow: 1px 1px 5px 2px #c7c7c7fe;
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+#button_play_again, #button_back_login {
+    margin-top: 0.5em;
+    width: 50%;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.2em;
+}
+
+/*--------------------DISPLAY DE/ACTIVATION---------------------*/
+
+.insert_name-none {
+    display: none;
+}
+
+.insert_name-flex {
+    display: flex;
+}
+
+.ranking-none {
+    display: none;
+}
+
+.ranking-flex {
+    display: flex;
+}
+
+.pre_game-none {
+    display: none;
+}
+
+.pre_game-flex {
+    display: flex;
+    margin: 9% 9.5% 15%;
+    width: 80%;
+    border-radius: 0.4em;
+    box-shadow: 1px 1px 5px 2px #c7c7c7fe;
+    background-color: white;
+    padding: 2em;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.main_screen_game-none {
+    display: none;
+}
+
+.main_screen_game-flex {
+    display: flex;
+    margin: 9% 9.5% 15%;
+    width: 80%;
+    border-radius: 0.4em;
+    box-shadow: 1px 1px 5px 2px #c7c7c7fe;
+    background-color: white;
+    padding: 2em;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.score_screen-none {
+    display: none;
+}
+
+.score_screen-flex {
+    display: flex;
+}
