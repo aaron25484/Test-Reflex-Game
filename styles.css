@@ -3,27 +3,34 @@ body{
     font-family: 'Noto Serif Khitan Small Script', sans-serif;
 }
 /*-----------------------LOGIN SCREEN--------------------*/
+
 .insert_name {
     margin: 18% 9.5% 15%;
     width: 80%;
     border-radius: 0.4em;
     box-shadow: 1px 1px 5px 2px #c7c7c7fe;
     background-color: white;
-    padding: 2em;
+    padding: 3.5em;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
 
+.insert_name-none {
+    display: none;
+}
+
 #userName {
+    margin-top: 0.3em;
     border: 1px solid black;
     border-radius: 0.2em;
 }
 
 #button_first_screen {
-    margin-top: 0.5em;
-    width: 50%;
+    margin-top: 1.5em;
+    width: 65%;
+    padding:0.8em;
     background-color: black;
     color: whitesmoke;
     border: none;
@@ -36,16 +43,11 @@ body{
     cursor: pointer;
 }
 
-.disabled{
-    opacity: 50%;
-    cursor: not-allowed;
-}
-
 /*----------------------RANKING BOX-------------------*/
 
 .ranking {
     position: fixed;
-    top:55%;
+    top:58%;
     left: 15%;
     width: 70%;
     border-radius: 0.4em;
@@ -70,27 +72,13 @@ li {
 
 /*-----------------------START GAME SCREEN----------------*/
 
-#button_second_screen {
-    margin: 40% auto;
-    display: block;
-    padding: 0.8em;
-    width: 50%;
-    background-color: black;
-    color: whitesmoke;
-    border: none;
-    border-radius: 0.2em;
-}
-
-
-/*-----------------------GET READY SCREEN----------------*/
-
-.ready_screen-none{
+.pre_game-none {
     display: none;
 }
 
-.ready_screen-flex{
+.pre_game-flex {
     display: flex;
-    margin: 9% 9.5% 15%;
+    margin: 18% 9.5% 15%;
     width: 80%;
     border-radius: 0.4em;
     box-shadow: 1px 1px 5px 2px #c7c7c7fe;
@@ -101,12 +89,8 @@ li {
     align-items: center;
 }
 
-
-/*-----------------------MAIN GAME SCREEN----------------*/
-
-
-#button_game {
-    margin: 40% auto;
+#button_second_screen {
+    margin: 30% auto;
     display: block;
     padding: 0.8em;
     width: 50%;
@@ -116,8 +100,62 @@ li {
     border-radius: 0.2em;
 }
 
+#button_second_screen:hover{
+    color: black;
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
+}
 
-/*----------------------------YOUR SCORE GAME -----------*/
+/*-----------------------GET READY SCREEN----------------*/
+
+.ready_screen-none{
+    display: none;
+}
+
+.ready_screen-flex{
+    display: flex;
+    margin: 18% 9.5% 15%;
+    width: 80%;
+    border-radius: 0.4em;
+    box-shadow: 1px 1px 5px 2px #c7c7c7fe;
+    background-color: white;
+    padding: 6.5em;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+/*-----------------------MAIN GAME SCREEN----------------*/
+
+.main_screen_game-none {
+    display: none;
+}
+
+.main_screen_game-flex {
+    display: flex;
+    margin: 18% 9.5% 15%;
+    width: 80%;
+    border-radius: 0.4em;
+    box-shadow: 1px 1px 5px 2px #c7c7c7fe;
+    background-color: white;
+    padding: 1.5em;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#button_game {
+    margin: 40% auto;
+    display: block;
+    padding: 0.8em;
+    width: 65%;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.2em;
+}
+
+/*----------------------YOUR SCORE GAME -----------------*/
 
 .score_screen {
     margin: 40% auto;
@@ -132,71 +170,22 @@ li {
     align-items: center;
 }
 
-#button_play_again, #button_back_login {
+.score_screen-none {
+    display: none;
+}
+
+#button_back_login {
     margin-top: 0.5em;
-    width: 50%;
+    width: 65%;
+    padding:0.8em;
     background-color: black;
     color: whitesmoke;
     border: none;
     border-radius: 0.2em;
 }
 
-/*--------------------DISPLAY DE/ACTIVATION---------------------*/
-
-.insert_name-none {
-    display: none;
-}
-
-.insert_name-flex {
-    display: flex;
-}
-
-.ranking-none {
-    display: none;
-}
-
-.ranking-flex {
-    display: flex;
-}
-
-.pre_game-none {
-    display: none;
-}
-
-.pre_game-flex {
-    display: flex;
-    margin: 9% 9.5% 15%;
-    width: 80%;
-    border-radius: 0.4em;
-    box-shadow: 1px 1px 5px 2px #c7c7c7fe;
-    background-color: white;
-    padding: 2em;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
-.main_screen_game-none {
-    display: none;
-}
-
-.main_screen_game-flex {
-    display: flex;
-    margin: 9% 9.5% 15%;
-    width: 80%;
-    border-radius: 0.4em;
-    box-shadow: 1px 1px 5px 2px #c7c7c7fe;
-    background-color: white;
-    padding: 2em;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
-.score_screen-none {
-    display: none;
-}
-
-.score_screen-flex {
-    display: flex;
+#button_back_login:hover{
+    color: black;
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
 }
