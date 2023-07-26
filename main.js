@@ -104,7 +104,7 @@ function saveResult (username, result){
     const results = JSON.parse(localStorage.getItem("highTimeResults") || "[]");
     results.push({ username, result });
     results.sort((a, b) => b.result - a.result);
-    localStorage.setItem("higTimeResults", JSON.stringify(results.slice(0, 10)));
+    localStorage.setItem("highTimeResults", JSON.stringify(results.slice(0, 10)));
     textScore.textContent =  "Your reaction time was " + resultTime;
 }
 
